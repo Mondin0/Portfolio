@@ -9,7 +9,7 @@
     --sans-font: 'Montserrat', sans-serif;
     --mono-font: 'Roboto', monospace;    
     --transition: all .5s ease-in-out;
-    --box-background: rgba(94, 82, 82, 0.6);
+    --box-background: rgba(220, 217, 217, 0.6);
     --box-shadow: 0 10px 10px -15px var(--box-background);
 }
 
@@ -708,6 +708,8 @@ h2.section_title::after{
     position: inherit;
     transform: translateX(0);
     color: var(--text-color);
+    background: transparent;
+    
   }
 
   .navbar_list {
